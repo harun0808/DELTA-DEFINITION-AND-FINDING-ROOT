@@ -3,11 +3,11 @@
 int main(){
 	int a,b,c;
 	float x1,x2,x,delta,x3,x4,x5,x6;
-	printf("x kareli ifade:");
+	printf("2nd GRADE EXPRESSION:");
 	scanf("%d",&a);
-	printf("x'li ifade:");
+	printf("1ST GRADE EXPRESSION:");
 	scanf("%d",&b);
-	printf("sabit ifade:");
+	printf("CONST EXPRESSION:");
 	scanf("%d",&c);
 	delta=(b*b)-(4*a*c);
 	if (delta==0){
@@ -20,10 +20,10 @@ int main(){
 	}else{
 		x3=-b/2*a;
 		x4=sqrt(-delta)/2*a;
-		printf("1.kok ::%.2f + %.2f i \n",x3,x4);
+		printf("FIRST ROOT ::%.2f + %.2f i \n",x3,x4);
 		x5=-b/2*a;
 		x6=-sqrt(-delta)/2*a;
-		printf("2.kok ::%.2f + %.2f i",x5,x6);
+		printf("SECOND ROOT ::%.2f + %.2f i",x5,x6);
 	}
 	
 	return 0;
